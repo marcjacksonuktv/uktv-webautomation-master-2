@@ -1,0 +1,48 @@
+1617824530902	geckodriver	INFO	Listening on 127.0.0.1:52861
+1617824531922	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/z08fk7fd3pz4lg_z7fbwrdg8n7w11t/T/rust_mozprofile4sz0P3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617824534318	Marionette	INFO	Listening on port 52868
+1617824534407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617824612975	geckodriver	INFO	Listening on 127.0.0.1:52975
+1617824613990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/z08fk7fd3pz4lg_z7fbwrdg8n7w11t/T/rust_mozprofilefOBOpd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617824616325	Marionette	INFO	Listening on port 52982
+1617824616370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617824656431	geckodriver	INFO	Listening on 127.0.0.1:53087
+1617824657447	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/z08fk7fd3pz4lg_z7fbwrdg8n7w11t/T/rust_mozprofileL6Nuwt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617824659773	Marionette	INFO	Listening on port 53094
+1617824659843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+1617824695612	geckodriver	INFO	Listening on 127.0.0.1:53200
+1617824696623	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/z08fk7fd3pz4lg_z7fbwrdg8n7w11t/T/rust_mozprofile6lOLod"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617824699057	Marionette	INFO	Listening on port 53207
+1617824699117	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+JavaScript error: https://s3-eu-west-1.amazonaws.com/uktv-static/uat/play/b4e90f8.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 does not implement interface Element.
+1617824744661	Marionette	INFO	Stopped listening on port 53207
+1617824746773	Marionette	INFO	Stopped listening on port 53094
+1617824748946	Marionette	INFO	Stopped listening on port 52982
+1617824751188	Marionette	INFO	Stopped listening on port 52868
+1617894678595	geckodriver	INFO	Listening on 127.0.0.1:61338
+1617894679505	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/z08fk7fd3pz4lg_z7fbwrdg8n7w11t/T/rust_mozprofiley1ZWQV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617894682194	Marionette	INFO	Listening on port 61345
+1617894682296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617894782497	Marionette	INFO	Stopped listening on port 61345
