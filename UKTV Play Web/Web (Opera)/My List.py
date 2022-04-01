@@ -12,52 +12,53 @@ from selenium.webdriver.edge.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from webdriver_manager.opera import OperaDriverManager
 driver = webdriver.Opera(executable_path=OperaDriverManager().install())
-testurl = 'https://uktv:wemakegreattv@uktvplay.uatuktv.co.uk/'
+testurl = 'https://www.uktvplay.ppuktv.co.uk/'
 a = ActionChains(driver)
 driver.implicitly_wait(15)
 
 # Cookie Notice
-CookieYes = driver.find_element_by_id('cookie-agree').click()
+CookieYes = driver.find_element(By.ID, 'cookie-agree').click()
 
 # Header
-uktvplaylogo = driver.find_element_by_id('nav-bar-home')
-categories = driver.find_element_by_id('nav-bar-categories')
-channels = driver.find_element_by_id('nav-bar-channels')
-boxsets = driver.find_element_by_id('nav-bar-boxsets')
-a2z = driver.find_element_by_id('nav-bar-az')
-more = driver.find_element_by_id('nav-bar-more')
-mylist = driver.find_element_by_id('nav-bar-mylist')
-account = driver.find_element_by_id('nav-bar-account')
-search = driver.find_element_by_id('nav-bar-search')
+uktvplaylogo = driver.find_element(By.ID, 'nav-bar-home')
+categories = driver.find_element(By.ID, 'nav-bar-categories')
+channels = driver.find_element(By.ID, 'nav-bar-channels')
+boxsets = driver.find_element(By.ID, 'nav-bar-boxsets')
+a2z = driver.find_element(By.ID, 'nav-bar-az')
+more = driver.find_element(By.ID, 'nav-bar-more')
+mylist = driver.find_element(By.ID, 'nav-bar-mylist')
+account = driver.find_element(By.ID, 'nav-bar-account')
+search = driver.find_element(By.ID, 'nav-bar-search')
 
 # Sign In
 account.click()
-email = driver.find_element_by_id('email').send_keys('operauser@testaccount.com')
-password = driver.find_element_by_id('password').send_keys('password123')
-SignIn_button = driver.find_element_by_id('sign-in-btn').click()
+email = driver.find_element(By.ID, 'email').send_keys('operauser@testaccount.com')
+password = driver.find_element(By.ID, 'password').send_keys('password123')
+SignIn_button = driver.find_element(By.ID, 'sign-in-btn').click()
 time.sleep(3)
 
 #Search
-Search = driver.find_element_by_id('nav-bar-search').click()
-PopularSearch3 = driver.find_element_by_id('popular-result-1').click()
+Search = driver.find_element(By.ID, 'nav-bar-search').click()
+PopularSearch3 = driver.find_element(By.ID, 'popular-result-1').click()
 time.sleep(2)
 
 # My List
-addtofave = driver.find_element_by_id('add-to-favourites').click()
+addtofave = driver.find_element(By.ID, 'add-to-favourites').click()
 time.sleep(1)
-mylist = driver.find_element_by_id('nav-bar-mylist').click()
+mylist = driver.find_element(By.ID, 'nav-bar-mylist').click()
 time.sleep(5)
 # insert screenshot here
-removeshow = driver.find_element_by_id('Close-X').click()
+removeshow = driver.find_element(By.ID, 'Close-X').click()
 time.sleep(2)
-History = driver.find_element_by_id('tab-history').click()
+History = driver.find_element(By.ID, 'tab-history').click()
 time.sleep(2)
 
 #Search
-Search = driver.find_element_by_id('nav-bar-search').click()
-PopularSearch3 = driver.find_element_by_id('popular-result-1').click()
+Search = driver.find_element(By.ID, 'nav-bar-search').click()
+PopularSearch3 = driver.find_element(By.ID, 'popular-result-1').click()
 time.sleep(2)
 
 print ('My List Passed')

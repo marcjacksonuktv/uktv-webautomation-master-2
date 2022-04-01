@@ -67,20 +67,20 @@ MyList.click()
 driver.execute_script("window.history.go(-1)")
 
 #Click to share
-Share = driver.find_element(By.ID, 'Share-Icon')
-Share.click()
+#Share = driver.find_element(By.ID, 'Share-Icon')
+#Share.click()
 #driver.execute_script("window.scrollTo(0, 700)")
 
 #Click on Facebook
-FacebookShare = driver.find_element(By.ID, 'facebook-share')
-FacebookShare.click()
-driver.switch_to.window(driver.window_handles[0])
+#FacebookShare = driver.find_element(By.ID, 'facebook-share')
+#FacebookShare.click()
+#driver.switch_to.window(driver.window_handles[0])
 
 #Click on Twitter
-TwitterShare = driver.find_element(By.ID, 'twitter-share')
-TwitterShare.click()
-driver.switch_to.window(driver.window_handles[0])
-time.sleep(2)
+#TwitterShare = driver.find_element(By.ID, 'twitter-share')
+#TwitterShare.click()
+#driver.switch_to.window(driver.window_handles[0])
+#time.sleep(2)
 
 #Continue without Pin
 #ContinueWithoutPin = driver.find_element(By.ID, 'continue-pin')

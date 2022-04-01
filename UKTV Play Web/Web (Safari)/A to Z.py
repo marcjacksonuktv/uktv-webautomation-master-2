@@ -35,6 +35,7 @@ more = driver.find_element(By.ID, 'nav-bar-more')
 mylist = driver.find_element(By.ID, 'nav-bar-mylist')
 account = driver.find_element(By.ID, 'nav-bar-account')
 search = driver.find_element(By.ID, 'nav-bar-search')
+time.sleep(2)
 
 # Sign In
 account.click()

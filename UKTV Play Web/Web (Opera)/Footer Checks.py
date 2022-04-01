@@ -12,60 +12,61 @@ from selenium.webdriver.edge.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from webdriver_manager.opera import OperaDriverManager
 driver = webdriver.Opera(executable_path=OperaDriverManager().install())
-testurl = 'https://uktv:wemakegreattv@uktvplay.uatuktv.co.uk/'
+testurl = 'https://www.uktvplay.ppuktv.co.uk/'
 a = ActionChains(driver)
 driver.implicitly_wait(15)
 
 # Cookie Notice
-CookieYes = driver.find_element_by_id('cookie-agree')
+CookieYes = driver.find_element(By.ID, 'cookie-agree')
 CookieYes.click()
 
 time.sleep(2)
 
 # -- Scroll Page --
-ScrollPage = driver.find_element_by_tag_name('body')
+ScrollPage = driver.find_element(By.TAG_NAME,'body')
 ScrollPage.send_keys(Keys.END)
 
 # -- Footer --
-logofooter = driver.find_element_by_xpath('//*[@id="app"]/footer/div/div[1]/a/img')
+logofooter = driver.find_element(By.XPATH,'//*[@id="app"]/footer/div/div[1]/a/img')
 
-help = driver.find_element_by_id('footer-help')
+help = driver.find_element(By.ID, 'footer-help')
 print(help.get_attribute('href'))
-TVregistration = driver.find_element_by_id('footer-TVreg')
+TVregistration = driver.find_element(By.ID, 'footer-TVreg')
 print(TVregistration.get_attribute('href'))
-ContactUs = driver.find_element_by_id('footer-contact')
+ContactUs = driver.find_element(By.ID, 'footer-contact')
 print(ContactUs.get_attribute('href'))
-ParentalGuidance = driver.find_element_by_id('footer-PIN')
+ParentalGuidance = driver.find_element(By.ID, 'footer-PIN')
 print(ParentalGuidance.get_attribute('href'))
-WaystoWatch = driver.find_element_by_id('footer-ways')
+WaystoWatch = driver.find_element(By.ID, 'footer-ways')
 print(WaystoWatch.get_attribute('href'))
 
 # -- General --
 
-PrivacyPolicy = driver.find_element_by_id('footer-privacy')
+PrivacyPolicy = driver.find_element(By.ID, 'footer-privacy')
 print(PrivacyPolicy.get_attribute('href'))
-TandC = driver.find_element_by_id('footer-terms')
+TandC = driver.find_element(By.ID, 'footer-terms')
 print(TandC.get_attribute('href'))
-Accessibility = driver.find_element_by_id('footer-accessibility')
+Accessibility = driver.find_element(By.ID, 'footer-accessibility')
 print(Accessibility.get_attribute('href'))
-CookieFooter = driver.find_element_by_id('footer-cookie')
+CookieFooter = driver.find_element(By.ID, 'footer-cookie')
 print(CookieFooter.get_attribute('href'))
-Corp = driver.find_element_by_id('footer-corporate')
+Corp = driver.find_element(By.ID, 'footer-corporate')
 print(Corp.get_attribute('href'))
-Footerchannels = driver.find_element_by_id('footer-channels')
+Footerchannels = driver.find_element(By.ID, 'footer-channels')
 print(Footerchannels.get_attribute('href'))
-Slavery = driver.find_element_by_id('footer-slavery')
+Slavery = driver.find_element(By.ID, 'footer-slavery')
 print(Slavery.get_attribute('href'))
 
 # -- Social Feeds Links --
 
-Twitter = driver.find_element_by_id('footer-twitter')
+Twitter = driver.find_element(By.ID, 'footer-twitter')
 print(Twitter.get_attribute('href'))
-Facebook = driver.find_element_by_id('footer-facebook')
+Facebook = driver.find_element(By.ID, 'footer-facebook')
 print(Facebook.get_attribute('href'))
-Instagram = driver.find_element_by_id('footer-instagram')
+Instagram = driver.find_element(By.ID, 'footer-instagram')
 print(Instagram.get_attribute('href'))
 
 print('Footer Passed')
